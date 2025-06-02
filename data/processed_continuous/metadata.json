@@ -1,0 +1,40 @@
+{
+  "dataset_info": {
+    "total_labeled_songs": 40,
+    "train_size": 24,
+    "val_size": 8,
+    "test_size": 8,
+    "feature_count": 2007,
+    "tfidf_features": 2000,
+    "numerical_features": [
+      "lyrics_length",
+      "word_count",
+      "unique_word_ratio",
+      "misogyny_keyword_count",
+      "misogyny_keyword_density",
+      "year_normalized",
+      "artist_avg_misogyny"
+    ]
+  },
+  "target_statistics": {
+    "train_mean": 0.4875,
+    "train_std": 0.059947894041408996,
+    "train_min": 0.2,
+    "train_max": 0.5,
+    "val_mean": 0.5,
+    "val_std": 0.0,
+    "test_mean": 0.4625,
+    "test_std": 0.09921567416492214
+  },
+  "labeling_criteria": {
+    "scale": "0.0 to 1.0",
+    "interpretation": {
+      "0.0": "No misogynistic content",
+      "0.1-0.2": "Mild stereotypes",
+      "0.3-0.4": "Moderate objectification",
+      "0.5-0.6": "Clear derogatory language",
+      "0.7-0.8": "Psychological threats",
+      "0.9-1.0": "Explicit violence"
+    }
+  }
+}
