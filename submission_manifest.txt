@@ -1,0 +1,42 @@
+# Project Submission Manifest
+
+This file lists the key artifacts for the project: "Analysis of Potentially Inappropriate Content in Song Lyrics (1950-2019)".
+
+## I. Data Files
+
+1.  `data/raw/all_songs_data_processed.csv`
+    *   Note: Due to download restrictions during the project simulation, this is a dummy CSV file created to match the expected structure of the original dataset from Kaggle ("Music Dataset 1950 to 2019"). The cleaning and lyrics columns were added based on project steps.
+2.  `data/labeled/manually_labeled_songs.csv`
+    *   Contains the dummy dataset with added 'Manual_Score' and 'Labeling_Notes' for a subset of rows, and 'Cleaned_Lyrics'.
+3.  `data/labeled/offensive_terms_dictionary.txt`
+    *   A placeholder dictionary with example terms that could be used for manual labeling or feature engineering.
+4.  `data/processed/songs_with_predictions.csv`
+    *   The full (dummy) dataset with 'Cleaned_Lyrics' and model-generated 'Predicted_Score'.
+
+## II. Model Files
+
+1.  `data/processed/lstm_model.keras`
+    *   The trained LSTM model saved in Keras format. Trained on a very small, simulated labeled dataset.
+
+## III. Documentation & Outlines
+
+1.  `technical_report_outline.md`
+    *   Markdown outline for the final technical report.
+2.  `presentation_notebook_outline.md`
+    *   Markdown outline for the presentation Jupyter Notebook.
+3.  `code_references.md`
+    *   Markdown file listing key Python scripts/logic developed and their planned organization.
+4.  `README.md`
+    *   (Placeholder - To be created or updated with final project details, setup instructions, etc.)
+
+## IV. Final Deliverables (Placeholders - To be generated from outlines and code)
+
+1.  `final_technical_report.pdf`
+    *   (Placeholder - The final report generated from `technical_report_outline.md` and project findings).
+2.  `final_eda_and_algorithm_notebook.ipynb`
+    *   (Placeholder - A Jupyter Notebook containing the Exploratory Data Analysis, data preprocessing, model training, and prediction code, based on `code_references.md` and various script components developed).
+3.  `final_visualizations_notebook.ipynb`
+    *   (Placeholder - A Jupyter Notebook focused on presenting key findings and visualizations, as outlined in `presentation_notebook_outline.md`).
+
+## V. This Manifest File
+1.  `submission_manifest.txt`
