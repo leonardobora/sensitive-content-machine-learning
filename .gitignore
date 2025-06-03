@@ -69,3 +69,44 @@ Thumbs.db
 
 # Streamlit
 .streamlit/
+
+# Project documentation (not for submission)
+CHECKPOINT.md
+PROJECT_SUMMARY.md
+SETUP_TUTORIAL.md
+START_HERE.md
+
+# Kaggle credentials
+kaggle.json
+
+# PDF files
+*.pdf
+
+# Results and outputs
+results/
+
+# Data processing files (keep only essential processed data)
+data/processed_continuous/
+
+# Temporary and test scripts
+scripts/quick_test.py
+scripts/batch_test.py
+scripts/interactive_test.py
+
+# Local development files
+.python-version
+*.pyc
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
